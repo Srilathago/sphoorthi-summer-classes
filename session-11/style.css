@@ -1,0 +1,37 @@
+.w-100{
+	width:100%;
+}
+.head{
+	background-color:blue;
+	height:50px;
+}
+.m-0{
+	margin:0;
+}
+.section1{
+	background-color:#ccc;
+	height:500px;
+}
+.d-flex{
+	display:flex;
+}
+.box-1{
+	height:500px;
+	width:400px;
+}
+.content1{
+	background-color:green;
+}
+.content2{
+	background-color:#000;
+}
+.content3{
+	background-color:#ccc;
+}
+.mt-20{
+	margin-top:20px;
+}
+footer{
+	background-color:blue;
+	height:70px;
+}
