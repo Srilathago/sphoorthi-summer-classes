@@ -59,3 +59,27 @@ footer{
 footer p{
 	padding:0px 30px;
 }
+h1:hover{
+	background-color:green;
+}
+button:hover{
+	background-color:pink;
+}
+button:focus{
+	background-color:red;
+}
+button:active{
+	background-color:orange;
+}
+li:nth-child(8){
+	background-color:orange;
+}
+p:first-letter{
+	font-size:40px;
+}
+p:before{
+	content:'>>>>&';
+}
+#id{
+	
+}
