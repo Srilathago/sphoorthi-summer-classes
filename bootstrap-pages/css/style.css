@@ -4,15 +4,25 @@
     font-family: 'Roboto', sans-serif;
 } */
 @font-face {
-    font-family:'Roboto-Black';
-    src: url('./fonts/Roboto-Black.ttf');
+    font-family:'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf');
 }
 body{
     font-family:'Roboto-Bold', sans-serif;
 }
+.roboto-italic{
+    font-family:'Roboto-Italic', sans-serif;
+}
 @font-face {
     font-family:'Roboto-Italic';
-    src: url('./fonts/Roboto-Italic.ttf');
+    src: url('../fonts/Roboto-Italic.ttf');
+}
+@font-face {
+    font-family:'ChelseaMarket-Regular';
+    src:url('../fonts/ChelseaMarket-Regular.ttf')
+}
+.chelsamarket{
+    font-family:'ChelseaMarket-Regular', sans-serif;
 }
 .fw-500{
     font-weight:500;
@@ -23,3 +33,12 @@ body{
 .top-16{
     top:16px;
 }
+/* mozilla */
+@-moz-document url-prefix() {
+    body{
+        background-color:green;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+
+} 
